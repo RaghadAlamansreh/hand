@@ -17,7 +17,6 @@ if setSize + plus == cardsSize
   return false
 else
   return true
-
 end
 end
 

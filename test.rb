@@ -2,6 +2,16 @@ require_relative 'double_linked_list.rb'
 require_relative 'validate.rb'
 require 'set'
 
+############ Logic start ############
+# Firstly i will check the early exit points:
+# 1- if the cards array size less than 3
+# 2- if the cards array size more than 13
+# 3- if the cards array has doublicated cards
+# 4- if the cards array has more than one joker
+# Secondly i will determine if the nzool is same rank nzool or sequential group nzool
+# and check the cards
+############ Logic End ############
+
 def valid_group(cards)
   puts validate(cards)
 end
